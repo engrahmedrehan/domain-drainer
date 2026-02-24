@@ -1,0 +1,23 @@
+#asset-thief-tooltip {
+  position: absolute;
+  z-index: 999999;
+  background: #0d0d0d;
+  border: 1px solid #39FF14;
+  color: #39FF14;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 10px;
+  pointer-events: auto;
+}
+#asset-thief-tooltip button {
+  background: #39FF14;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.thief-outline {
+  outline: 2px dashed #39FF14 !important;
+  outline-offset: 2px !important;
+  cursor: crosshair !important;
+}
