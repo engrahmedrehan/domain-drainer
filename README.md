@@ -17,10 +17,17 @@ Since this is a developer tool, you can load it locally:
 
 ## 📂 Project Structure
 ├── data/
+
 │   ├── icons/           # High-resolution branding assets
+
 │   └── lib/             # External libraries and dependencies
+
 ├── background.js        # Manages extension lifecycle and background processes
+
 ├── content.js           # Handles interactions with the web pages you visit
+
 ├── popup.html           # Main user interface (popup window)
+
 ├── hacker.css           # Custom "terminal-style" styling for the UI
+
 └── manifest.json        # Extension configuration and permissions
