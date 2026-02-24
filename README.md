@@ -16,11 +16,11 @@ Since this is a developer tool, you can load it locally:
 4. Click **Load unpacked** and select the `Domain Drainer` folder (where `manifest.json` is located).
 
 ## 📂 Project Structure
-- [cite_start]`background.js`: Manages the extension lifecycle and background processes. [cite: 1]
-- [cite_start]`content.js`: Handles interactions with the web pages you visit. [cite: 2]
-- `popup.html`: The main user interface when clicking the extension icon.
-- [cite_start]`hacker.css`: Custom styling for a specialized "terminal" look and feel. [cite: 6]
-- [cite_start]`icons/`: High-resolution branding assets. 
-
-## 📄 License
-[Insert License Type, e.g., MIT]
+├── data/
+│   ├── icons/           # High-resolution branding assets
+│   └── lib/             # External libraries and dependencies
+├── background.js        # Manages extension lifecycle and background processes
+├── content.js           # Handles interactions with the web pages you visit
+├── popup.html           # Main user interface (popup window)
+├── hacker.css           # Custom "terminal-style" styling for the UI
+└── manifest.json        # Extension configuration and permissions
